@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3715372b.chunk.css",
+    "main.js": "/static/js/main.f9a8b7e5.chunk.js",
+    "main.js.map": "/static/js/main.f9a8b7e5.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.ebd68aab.js",
+    "runtime-main.js.map": "/static/js/runtime-main.ebd68aab.js.map",
+    "static/js/2.faf4c60c.chunk.js": "/static/js/2.faf4c60c.chunk.js",
+    "static/js/2.faf4c60c.chunk.js.map": "/static/js/2.faf4c60c.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.3715372b.chunk.css.map": "/static/css/main.3715372b.chunk.css.map",
+    "static/js/2.faf4c60c.chunk.js.LICENSE.txt": "/static/js/2.faf4c60c.chunk.js.LICENSE.txt",
+    "static/media/curiosity-rover.93d8c4ce.jpeg": "/static/media/curiosity-rover.93d8c4ce.jpeg",
+    "static/media/hero.c9a603f9.jpeg": "/static/media/hero.c9a603f9.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ebd68aab.js",
+    "static/js/2.faf4c60c.chunk.js",
+    "static/css/main.3715372b.chunk.css",
+    "static/js/main.f9a8b7e5.chunk.js"
+  ]
+}
