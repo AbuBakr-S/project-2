@@ -5,17 +5,40 @@
   box-sizing: border-box;
 }
 
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.banner img {
+  max-height: 500px;
+  width: 100%;
+  object-fit: cover;
+}
+
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin: 20px;
+  width: fit-content;
 }
 
 img.card-image {
-  height: 500px;
-  width: 500px;
+  height: 350px;
+  width: 350px;
   object-fit: cover;
 }
 
 .camera {
   margin-top: 50px;
+  align-items: center;
+}
+
+.arrows {
+  display: flex;
+}
+
+.camera-cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

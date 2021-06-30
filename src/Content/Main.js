@@ -40,10 +40,10 @@ function Main() {
   }
   return (
     <>
-      <h1 className="title is-1 has-text-centered">Curiosity Cam</h1>
+      <h1 className="title is-1 has-text-centered">Curiosity</h1>
       <img className="rover image is-1x1" src={Rover} />
       <div className="camera-container columns">
-        <div className="column">
+        <div className="column camera-cards">
           <div className="camera">
             <h4 className='title is-4 has-text-centered'>FHAZ</h4>
             <CameraCard
@@ -63,7 +63,7 @@ function Main() {
             />
           </div >
         </div>
-        <div className="column">
+        <div className="column camera-cards">
           <div className="camera">
             <h4 className='title is-4 has-text-centered'>CHEMCAM</h4>
             <CameraCard

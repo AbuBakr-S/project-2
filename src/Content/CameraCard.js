@@ -32,7 +32,7 @@ function CameraCard({ imgArray }) {
           }
         />
       </div>
-      <div className="columns is-gapless">
+      <div className="arrows columns is-gapless">
         <button
           id='left'
           className='button is-pulled-left'
@@ -40,7 +40,7 @@ function CameraCard({ imgArray }) {
         >
           {'<'}
         </button>
-        <p className='column has-text-centered'>
+        <p className="column has-text-centered">
           {imgArray.length > 0 ? `${index + 1} / ${imgArray.length}` : 'No Signal'}
         </p>
         <button
