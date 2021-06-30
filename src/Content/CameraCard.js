@@ -28,7 +28,7 @@ function CameraCard({ imgArray }) {
           src={
             imgArray.length > 0 ?
               imgArray[index].img_src :
-              'https://img.discogs.com/jiSrOapM-LZE478Om7z8tuj74cA=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-10167912-1492788723-6558.jpeg.jpg'
+              'https://media2.giphy.com/media/l1J9EdzfOSgfyueLm/giphy.gif'
           }
         />
       </div>

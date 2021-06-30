@@ -40,44 +40,44 @@ function Main() {
   }
   return (
     <>
-      <h1 className="title has-text-centered">Curiosity</h1>
+      <h1 className="title is-1 has-text-centered">Curiosity Cam</h1>
       <img className="rover image is-1x1" src={Rover} />
-      <div className="columns">
+      <div className="camera-container columns">
         <div className="column">
-          <div>
-            <h4 className='has-text-centered'>FHAZ</h4>
+          <div className="camera">
+            <h4 className='title is-4 has-text-centered'>FHAZ</h4>
             <CameraCard
               imgArray={allPhotos ? getImages('FHAZ') : []}
             />
           </div>
-          <div>
-            <h4 className='has-text-centered'>RHAZ</h4>
+          <div className="camera">
+            <h4 className='title is-4 has-text-centered'>RHAZ</h4>
             <CameraCard
               imgArray={allPhotos ? getImages('RHAZ') : []}
             />
           </div>
-          <div>
-            <h4 className='has-text-centered'>MAST</h4>
+          <div className="camera">
+            <h4 className='title is-4 has-text-centered'>MAST</h4>
             <CameraCard
               imgArray={allPhotos ? getImages('MAST') : []}
             />
           </div >
         </div>
         <div className="column">
-          <div>
-            <h4 className='has-text-centered'>CHEMCAM</h4>
+          <div className="camera">
+            <h4 className='title is-4 has-text-centered'>CHEMCAM</h4>
             <CameraCard
               imgArray={allPhotos ? getImages('CHEMCAM') : []}
             />
           </div>
-          <div>
-            <h4 className='has-text-centered'>MAHLI</h4>
+          <div className="camera">
+            <h4 className='title is-4 has-text-centered'>MAHLI</h4>
             <CameraCard
               imgArray={allPhotos ? getImages('MAHLI') : []}
             />
           </div >
-          <div>
-            <h4 className='has-text-centered'>NAVCAM</h4>
+          <div className="camera">
+            <h4 className='title is-4 has-text-centered'>NAVCAM</h4>
             <CameraCard
               imgArray={allPhotos ? getImages('NAVCAM') : []}
             />

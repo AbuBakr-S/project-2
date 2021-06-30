@@ -5,22 +5,17 @@
   box-sizing: border-box;
 }
 
-img.rover {
-  display: block;
-  margin: 20px auto;
-  object-fit: cover;
-}
-
-.rover {
-  display: flex;
-}
-
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  object-fit: fill;
   margin: 20px;
 }
 
-.card-image {
+img.card-image {
+  height: 500px;
+  width: 500px;
   object-fit: cover;
+}
+
+.camera {
+  margin-top: 50px;
 }
