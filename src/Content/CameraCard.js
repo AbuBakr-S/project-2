@@ -11,7 +11,7 @@ function CameraCard({ imgArray }) {
     setIndex(0)
   }, [day])
 
-  // * 
+  // * Use index as a click counter to inform which image to display
   const handleClick = (e) => {
     if (e.target.id === 'left' && index > 0) {
       setIndex(index - 1)

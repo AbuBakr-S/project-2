@@ -6,6 +6,7 @@ function Footer() {
   const [manifest, setManifest] = React.useState(null)
   const history = useHistory()
 
+  // * Validate Sol Day against mission Manifest constraints
   const handleChange = (e) => {
     if (e.key === 'Enter' || e.key === 'ArrowUp' || e.key === 'ArrowDown') {
       if (Number(e.target.value) < 0) {
@@ -68,7 +69,11 @@ function Footer() {
           +10
         </button> */}
       </div>
-      <p className='has-text-centered'>{manifest ? `Latest Sol Date: ${manifest.photo_manifest.max_sol}` : '...loading'}</p>
+      <p className='has-text-centered'>
+        {manifest ? 
+          `Latest Sol Date: ${manifest.photo_manifest.max_sol}` : 
+          '...loading'}
+      </p>
     </footer >
   )
 }
