@@ -3,6 +3,8 @@
 ## Overview 
 In this project we were tasked with building our first React application that consumes a public API in pairs. Dubbed ‘Mini Reactathon’, we had 48 hours to complete this. We used Visual Studio Live share to collaborate in real time. 
 
+[Deployed Here](https://mars-curiosity-rover-cam.netlify.app/)
+
 ### Web Technologies / Frameworks
 * React
 * JavaScript (ES6)
@@ -74,4 +76,5 @@ The main issue we had was working through React’s development errors while col
 
 React was also quite difficult to grasp in the short time we had as I felt like it required an upfront investment in understanding rendering, hooks and effects as well as the component pattern. As for the components, although the temptation was there to go straight in, I found it really helped to refactor into components afterwards. 
 
-## Future Changes
+## Future Improvements
+To make this project more visually immersive, I will create a space inspired theme and make the user input more engaging by adding animations. Initially I imagined it as a horizontal timeline where the user can slide the Sole Day to their desired date. 
