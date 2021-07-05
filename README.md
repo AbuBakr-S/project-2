@@ -31,7 +31,7 @@ As we browsed APIs for inspiration for our project idea, we stumbled across the 
 
 We used the Mars Rover Photos API [NASA Open APIs](https://api.nasa.gov/) to access images from the on-board cameras and also query the mission manifest to allow us to browse by date. We thought it would be pretty cool to look around mars on a given sol (mars day). I decided to only display 6/7 camera feeds though as the MARDI cam wasn’t displaying great images.   
 
-![Mars Rover API Table]('https://github.com/AbuBakr-S/project-2/blob/main/src/assets/table.png')
+![Mars Rover API Table](https://github.com/AbuBakr-S/project-2/blob/main/src/assets/table.png)
 
 ### Wireframe
 Once we were happy with the endpoint data, we decided sketch out our idea as a wireframe to make sure we were visualising the same goal. 
