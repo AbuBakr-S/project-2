@@ -68,6 +68,8 @@ There was also a need for user input validation to ensure the API request is not
 #### Conditionally Rendering Images (Fallback Gif)
 To anticipate the event of no available images, we provided a fun fallback of a gif which displays a No Signal message.
 
+![Camera Card](https://github.com/AbuBakr-S/project-2/blob/main/src/assets/Screenshot%202021-07-05%20at%2016.32.53.png)
+
 *CameraCard.js*
 ![Fallback Image](https://github.com/AbuBakr-S/project-2/blob/main/src/assets/fallback-image.png)
 
