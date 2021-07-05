@@ -15,6 +15,7 @@ function Footer() {
         history.push('/' + manifest.photo_manifest.max_sol)
         e.target.value = manifest.photo_manifest.max_sol
       } else {
+        console.log(e.target.value)
         history.push('/' + e.target.value)
       }
     }
@@ -52,7 +53,7 @@ function Footer() {
           type="number"
           className='input is-one-third'
           placeholder='Sol Days: e.g. 1000'
-          onKeyDown={handleChange}>
+          onKeyUp={handleChange}>
         </input>
         <button
           className='button'
