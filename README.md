@@ -36,7 +36,7 @@ We used the Mars Rover Photos API [NASA Open APIs](https://api.nasa.gov/) to acc
 ### Wireframe
 Once we were happy with the endpoint data, we decided sketch out our idea as a wireframe to make sure we were visualising the same goal. 
 
-![]()
+![Wireframe](https://github.com/AbuBakr-S/project-2/blob/main/src/assets/wireframe.png)
 
 ### Set up React App
 We used a custom template for our React application build:
@@ -49,25 +49,25 @@ We later decided to add a homepage to improve the user experience by providing s
 The `Main.js` page is where the `<CameraCard />` is mounted. We append the user’s selected Sol Date to the URL which is then retrieved using React router’s `useParams`  as the `day` which is passed into the `getAllPhotos(day)` function to retrieve the images for the given day.
 
 *Home.js*
-![]()
+![Route](https://github.com/AbuBakr-S/project-2/blob/main/src/assets/route.png)
 
 *Main.js*
-![]()
+![Get Images](https://github.com/AbuBakr-S/project-2/blob/main/src/assets/get-photos.png)
 
 There was also a need for user input validation to ensure the API request is not rejected on the front end so we set the input field type to `Number` and set limitation on the minimum and maximum values against the mission manifest details. 
 
 *Footer.js*
-![]()
+![Handle Change](https://github.com/AbuBakr-S/project-2/blob/main/src/assets/handle-change.png)
 
 #### Browse Images (Increment / Decrement)
 *CameraCard.js*
-![]()
+![Handle Click](https://github.com/AbuBakr-S/project-2/blob/main/src/assets/handle-click.png)
 
 #### Conditionally Rendering Images (Fallback Gif)
 To anticipate the event of no available images, we provided a fun fallback of a gif which displays a No Signal message.
 
 *CameraCard.js*
-![]()
+![Fallback Image](https://github.com/AbuBakr-S/project-2/blob/main/src/assets/fallback-image.png)
 
 ## Unsolved Problems / Major Hurdles
 The main issue we had was working through React’s development errors while collaborating on a single server using Visual Studio’s Live Share extension from a slower machine. This was a new technology to me and it took some time to get a productive workflow going but we managed to work through it by discussing problems and solutions and working through them in chunks at a time. 
