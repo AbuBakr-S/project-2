@@ -1,7 +1,7 @@
 # Project 2: Curiosity Rover
 
 ## Overview 
-For this project, we worked in pairs to build our first React application that consumes a public API. Dubbed ‘Mini Reactathon’, we had 48 hours to complete this. We used Visual Studio Live Share to collaborate in real time. 
+In this project, I paired up with [Daniel Fullerton](https://github.com/sirdantheawesome) to build our first React application that consumes a public API. Dubbed ‘Mini Reactathon’, we had 48 hours to complete this. We used Visual Studio Live Share to collaborate in real time. 
 
 You can find this deployed [here](https://mars-curiosity-rover-cam.netlify.app/).
 
@@ -43,6 +43,9 @@ Once we were happy with the endpoint data, we decided sketch out our idea as a w
 *Camera View Wireframe*
 
 <img src="src/assets/wireframe.png" alt="Wireframe" width="60%" height="auto">
+
+### Distribution of Tasks
+We collaborated using Visual Studio's Live Share extension which made it difficult to work independently. Dan was more comfortable with React and conditional rendering at this point so he laid out some of the preparation for the app structure. We worked through different components together and discussed problems and solutions as we discovered them. We also took lead on different tasks and reviewed eachothers code. I mostly worked on handling the API request / response, camera card component, homepage and some styling while Dan worked on the Footer (mission manifest), the camera card and the initial styling.
 
 ### Set up React App
 We used a custom template for our React application build:
@@ -172,10 +175,10 @@ To anticipate the event of no available images, we provided a fun fallback of a 
 ```
 
 ## Wins
-* Building my first React application
-* Effectively collaborating on a pair programming project remotely and overcoming technological challenges
-* Getting more comfortable with React components
-* Utilising conditional rendering effectively 
+* Building my first React application.
+* Effectively collaborating on a pair programming project remotely and overcoming technological challenges.
+* Getting more comfortable with React components.
+* Utilising conditional rendering effectively.
 
 
 ## Challenges
